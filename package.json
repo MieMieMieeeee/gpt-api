@@ -1,0 +1,38 @@
+{
+  "name": "@miemiemie/koishi-plugin-gpt-api",
+  "description": "使用ChatGPT官方API,为koishi提供gpt服务",
+  "version": "0.1.10",
+  "contributors": [
+    "miemiemie <ndschen123@gmail.com>"
+  ],
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "koishi": {
+    "description": {
+      "zh": "使用ChatGPT官方API,为koishi提供gpt服务"
+    },
+    "service": {
+      "implements": [
+        "gpt"
+      ]
+    }
+  },
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "gpt"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.11.9"
+  },
+  "dependencies": {
+    "@mirror_cy/gpt": "^0.0.1"
+  }
+}
